@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    &-img {
+        width: 500px;
+        border-radius: 2rem;
+    }
+    &-content {
+        background-color: rgba($color: #000000, $alpha: .2);
+        position: absolute;
+        width: 500px;
+        top: 180px;
+        &-title {
+            margin: 0;
+        }
+    }
+}

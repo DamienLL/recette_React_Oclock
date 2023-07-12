@@ -1,0 +1,17 @@
+.instructionsList {
+    li {
+        list-style-type: none;
+        text-align: left;
+        margin-left: 2rem;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: -1.3rem;
+            top: 50%;
+            width: 12px;
+            height: 2px;
+            background-color: rgb(255, 136, 0);
+        }
+    }
+}

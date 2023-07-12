@@ -1,0 +1,14 @@
+.ingredientsList {
+    list-style-type: none;
+    text-align: left;
+    .ingredient {
+        &-span {
+            padding: .2rem .5rem;
+            background-color: rgb(255, 136, 0);
+            border-radius: 2rem;
+        }
+    }
+    hr {
+        margin-bottom: 1rem;
+    }
+}
